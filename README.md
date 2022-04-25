@@ -13,11 +13,3 @@ Nuestra compañia está diseñada para dar servicio a todo tipo de consumidores,
  https://www.trekbikes.com/es/es_ES/ 
  https://www.cannondale.com/es-es
 
-
-## IMAGENES
-![Desktop - 1 (1)](https://user-images.githubusercontent.com/86703739/165183558-a7dfa69e-f8d6-4a25-9672-c9728aa1a73b.png)
-![Untitled (Copy)](https://user-images.githubusercontent.com/86703739/165183562-2899f289-14cf-4438-916f-40edc0f36b30.png)
-![Untitled (Copy) (1)](https://user-images.githubusercontent.com/86703739/165183571-92464d18-0de1-4948-8f26-2b4ab185ff03.png)
-
-![Desktop - 1](https://user-images.githubusercontent.com/86703739/165183844-435de711-b960-411e-848b-25ddc7c1e720.png)
-![Mask group](https://user-images.githubusercontent.com/86703739/165183869-fb42bbfa-c1c5-456d-8eb0-0dd610113769.png)
