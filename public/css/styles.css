@@ -8,7 +8,23 @@ body{
     font-family: 'Roboto', sans-serif;
     background-color: black;
 }
-
+.topHeader {
+    text-align: right;
+    background-color: slategrey;
+    font:bold;
+    display: flex;
+    justify-content: right;
+    
+}
+.menuHeader {
+    text-align: right;
+    background-color: black;
+    font:bold;
+   
+    display: flex;
+    justify-content: center;
+    
+}
 .center{
     width: 100%;
     text-align: center;
@@ -16,12 +32,31 @@ body{
 }
 header ul li{
     list-style-type: none;
+    padding: auto;
+
 }
 
 header ul li a{
     text-decoration: none;
     color:aqua;
 }
-.bnavegar {
-    display: inline;
+ul
+{
+	list-style-type:none;
+	margin:0;
+	padding: 20px;
+    
 }
+li
+{
+display:inline;
+padding: 10px;
+
+}
+
+/*nav > ul {
+    display: flex;
+  justify-content: center;
+}
+
+  
