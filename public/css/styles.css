@@ -10,7 +10,7 @@ body{
 }
 .topHeader {
     text-align: right;
-    background-color: slategrey;
+    background-color: black;
     font:bold;
     display: flex;
     justify-content: right;
@@ -18,7 +18,7 @@ body{
 }
 .menuHeader {
     text-align: right;
-    background-color: black;
+    background-color: rgba(3, 152, 158, 1);
     font:bold;
    
     display: flex;
@@ -33,12 +33,14 @@ body{
 header ul li{
     list-style-type: none;
     padding: auto;
+    color:white;
+
 
 }
 
 header ul li a{
     text-decoration: none;
-    color:aqua;
+    color:black;
 }
 ul
 {
@@ -54,9 +56,33 @@ padding: 10px;
 
 }
 
-/*nav > ul {
+.contenedorMenu {
+
     display: flex;
-  justify-content: center;
+    flex-wrap:nowrap; 
+    padding: 10px;
+    flex-direction: row;
+   
 }
 
-  
+.imgMenuNews {
+    max-width: 100%;
+    padding: 10px;
+}
+
+.footer {
+    text-align: right;
+    background-color: rgba(3, 152, 158, 1);
+    font:bold;
+    padding: 30px; 
+    text-align: left;
+    color: black;
+}
+.menuFooter {
+    text-align: right;
+    background-color: rgba(3, 152, 158, 1);
+    font:bold;
+    color: black;
+    display: flex;
+    justify-content: center;
+    color: black;
