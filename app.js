@@ -20,3 +20,10 @@ app.get('/login', (req,res)=>{
 app.get('/register', (req,res)=>{
     res.sendFile(__dirname + '/views/register.html');
 });
+app.get('/MTB', (req,res)=>{
+    res.sendFile(__dirname + '/views/MTB.html');
+});
+
+app.get('/ROAD', (req,res)=>{
+    res.sendFile(__dirname + '/views/ROAD.html');
+});

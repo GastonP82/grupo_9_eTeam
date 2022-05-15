@@ -7,46 +7,78 @@
 body{
     font-family: 'Roboto', sans-serif;
     background-color: black;
+    position: relative;
+}
+div.topHeader nav{
+    width: 80%;
 }
 .topHeader {
-    text-align: right;
-    background-color: black;
+    justify-content:space-between;
+    background-color: rgb(48, 54, 61);
     font:bold;
     display: flex;
-    justify-content: right;
-    
+    flex-wrap: wrap;
+    font-size: 14px;
+padding: 0;
+
+}
+.logo img{
+width: 20%;
+padding: 1px;
+position:absolute;
+}
+.logo{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+
+}
+
+article .portada{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+
+}
+div.nombre h1 a {
+    text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+}
+.portada1, .portada2, .portada3{
+    width: 49%;
+    justify-content: center;
+    padding: 1px;
 }
 .menuHeader {
-    text-align: right;
-    background-color: rgba(3, 152, 158, 1);
+    justify-content: space-around;
+    background-color: black;
     font:bold;
-   
+   font-size: 12px;
     display: flex;
     justify-content: center;
     
 }
 .center{
-    width: 100%;
+   width: 100%;
     text-align: center;
-    margin-bottom: 10;
+    
 }
 header ul li{
     list-style-type: none;
     padding: auto;
-    color:white;
-
 
 }
 
 header ul li a{
     text-decoration: none;
-    color:black;
+    color:aqua;
 }
-ul
+div.menuHeader ul
 {
 	list-style-type:none;
 	margin:0;
-	padding: 20px;
+	padding: 10px;
     
 }
 li
@@ -55,34 +87,45 @@ display:inline;
 padding: 10px;
 
 }
-
-.contenedorMenu {
-
+.menuNews {
     display: flex;
-    flex-wrap:nowrap; 
+    flex-wrap: nowrap; 
     padding: 10px;
+}
+div.bl{
+    height: 200px;
+}main section article {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+main section div.products {
+    display: flex;
     flex-direction: row;
-   
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 10px;
+    background-color: #dcd7fa;
 }
 
-.imgMenuNews {
-    max-width: 100%;
+main section div.products article {
+    width: 45%;
+    align-content: center;
+}
+
+.price,
+.discount {
+    width: 50%;
+}
+img.product_img{
+    width:100%;
+    padding: 8px;
+    align-self: start;;
+}
+h4{
     padding: 10px;
 }
+p.price{
+    padding: 10px;
 
-.footer {
-    text-align: right;
-    background-color: rgba(3, 152, 158, 1);
-    font:bold;
-    padding: 30px; 
-    text-align: left;
-    color: black;
 }
-.menuFooter {
-    text-align: right;
-    background-color: rgba(3, 152, 158, 1);
-    font:bold;
-    color: black;
-    display: flex;
-    justify-content: center;
-    color: black;
