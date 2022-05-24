@@ -13,3 +13,5 @@ Nuestra compañia está diseñada para dar servicio a todo tipo de consumidores,
  https://www.trekbikes.com/es/es_ES/ 
  https://www.cannondale.com/es-es
 
+## trello:
+https://trello.com/b/d3FNpOZf/sprint-2
