@@ -2,7 +2,7 @@
   "name": "y",
   "version": "1.0.0",
   "description": "y",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "test": "nodemon src/app.js"
   },
