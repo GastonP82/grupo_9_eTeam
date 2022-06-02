@@ -19,6 +19,9 @@ const controlador = {
     road : (req, res) => {
         res.sendFile(path.resolve('src/views/road.html'))
     },
+    carro : (req, res) => {
+        res.sendFile(path.resolve('src/views/carro.html'))
+    },
 }
 
 module.exports = controlador;
